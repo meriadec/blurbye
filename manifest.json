@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "blurbye",
+  "description": "Prevent annoying sites to listen window.onblur event",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["content.js"]
+  }],
+  "permissions": [
+    "activeTab"
+  ],
+  "web_accessible_resources" : ["/reset.js"]
+}
