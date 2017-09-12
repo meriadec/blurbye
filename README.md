@@ -6,7 +6,7 @@
 
 Just prevent annoying website from listening `onblur` event to pause their useless ads.
 
-## install
+## Install
 
 Clone and install manually, like every people.
 
